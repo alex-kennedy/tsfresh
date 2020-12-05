@@ -4,9 +4,10 @@ Large Input Data
 ================
 
 If you are dealing with large time series data, you are facing multiple problems.
-Thw two most important ones are
-* long execution times for feature extraction
-* large memory consumptions, even beyond what a single machine can handle
+The two most important ones are
+
+* Long execution times for feature extraction
+* Large memory consumptions, even beyond what a single machine can handle
 
 To solve only the first problem, you can parallelize the computation as described in :ref:`tsfresh-on-a-cluster-label`.
 Please note, that parallelization on your local computer is already turned on by default.
